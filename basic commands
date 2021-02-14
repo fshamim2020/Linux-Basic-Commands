@@ -1,0 +1,39 @@
+#create file in linux
+touch feb.txt 
+#show hiddlen files
+ls -a
+# show files with permission
+ls -al
+default file is -rw-rw-r--
+#view files
+cat feb.txt
+# to remove file
+rm feb.txt
+ls -l feb.txt
+
+# Vi and nano are text editor 
+
+#shows file in directory
+ls -R
+#show available disk usage 
+df -h
+
+# Add entry in file 
+echo 123 >> feb.txt
+ R / W/ X  (read, write & execute)
+default file is -rw-rw-r--
+ 
+ file , User , group and other 
+ 
+ sudo chown fshamim feb.txt
+ ls -l feb.txt
+
+chmod o+rwx feb.txt
+chmod u+rwx feb.txt
+chmod g+rwx feb.txt
+
+lsblk -- shows mout type
+fdiskh -l
+
+tail feb.txt --> show last 10 lines of file  
+head feb.txt --> show first 10 lines
