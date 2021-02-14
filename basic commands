@@ -37,3 +37,18 @@ fdiskh -l
 
 tail feb.txt --> show last 10 lines of file  
 head feb.txt --> show first 10 lines
+
+Creating script
+vi script1.sh
+cat script1.sh
+chmod u+x script1.sh
+./script1.sh
+
+Creating Cron
+crontab -l --> to view crons
+crontan -e 
+* * * * * /home/fassi/scripts/scrip1.sh
+crontab -l will show now : * * * * * /home/fassi/scripts/script1.sh
+watch ls -l ../backup/ --> inseatd of writing ls command everytime , you can create watch command
+
+
