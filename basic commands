@@ -52,3 +52,8 @@ crontab -l will show now : * * * * * /home/fassi/scripts/script1.sh
 watch ls -l ../backup/ --> inseatd of writing ls command everytime , you can create watch command
 
 
+Creating Zip folder
+tar -czvf (name) (location)
+
+Creating variable
+backup_date = 'date %Y%m%d'
